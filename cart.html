@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="images/logoha.png" type="image/x-icon">
+    <title>Shopping Cart | Ocean Gate Official</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="overflow: hidden;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html"><b class="oc-1">Ocean</b> <b class="oc-2">Gate</b></a>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+   </button>   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a id="a10" class="nav-link" href="./index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a id="a10" class="nav-link" href="./about.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a id="a10" class="nav-link" href="./gallery.html">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a id="a10" class="nav-link" href="./product.html">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+          <a id="a10" class="nav-link" href="./contact.html">CONTACT US</a>
+        </li>
+        <button type="button" class="btn btn-warning position-relative btncart" width="60px">
+          <a href="./cart.html" class="text-dark"><i class="fa-solid fa-cart-shopping"></i></a>
+      <span class="position-absolute top-0  translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread messages</span>
+      </span>
+    </button>
+      </ul>
+    </div>
+  </div>
+</nav>
+      <!-- product detail -->
+      <div class="d1">
+        <p id="p"><b id="hello"><a href="./index.html" class="text-dark">Home</a></b> / <a href="./product-detail.html" class="text-dark">Product Detail</a> / Cart </p>
+    </div>
+    <!-- Cart items -->
+    <div class="container mt-4">
+        <h2>Your Shopping Cart</h2>
+        <hr class="bg-warning"/>
+
+        <!-- Product 1 -->
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <img src="./images/p.monitor.1.png" alt="Product 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h5>HP Monitor</h5>
+                <p>FHD (1920 x 1080)1000:15ms GtG (with overdrive)</p>
+            </div>
+            <div class="col-md-2">
+                <p>$229.99</p>
+            </div>
+            <div class="col-md-2">
+                <input type="number" class="form-control" value="1" min="1">
+            </div>
+        </div>
+        <!-- End Product 1 -->
+
+        <!-- Product 2 -->
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <img src="./images/p.headphone1.png" alt="Product 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h5>PGaming Headset</h5>
+                <p>HyperX Dual Chamber DriversHyperX signature comfortDurable aluminum frameMulti-platform compatibility</p>
+            </div>
+            <div class="col-md-2">
+                <p>$70.99</p>
+            </div>
+            <div class="col-md-2">
+                <input type="number" class="form-control" value="1" min="1">
+            </div>
+        </div>
+        <!-- End Product 2 -->
+
+        <!-- Product 3 -->
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <img src="./images/p.controller1.png" alt="Product 3" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h5>Wireless Gaming Controller</h5>
+                <p>Comfortable ergonomic designMulti-platform for cloud gamingStandard.</p>
+            </div>
+            <div class="col-md-2">
+                <p>$29.99</p>
+            </div>
+            <div class="col-md-2">
+                <input type="number" class="form-control" value="1" min="1">
+            </div>
+        </div>
+        <!-- End Product 3 -->
+
+        <!-- Total and other details -->
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <a href="./product.html" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Continue Shopping</a>
+            </div>
+            <div class="col-md-4 text-end">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>Total:</th>
+                            <td>$330.97</td>
+                        </tr>
+                        <tr>
+                            <th>Shipping:</th>
+                            <td>$9.99</td>
+                        </tr>
+                        <tr>
+                            <th>Grand Total:</th>
+                            <td>$339.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="./final.html"><button class="btn btn-success">Checkout <i class="fas fa-arrow-right"></i></button></a>
+            </div>
+        </div>
+        <!-- End Total and other details -->
+    </div>
+    <!-- footer -->
+    <footer class="mt-5">
+        <div class="template">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                          <b class="oc-1">Ocean</b> <b class="oc-2">Gate</b>
+                            <div class="footer-content text-white">Welcome to Ocean Gate. Online Computer store in Pakistan. Buy Dell, Lenovo, HP, Acer laptops at the best prices in Pakistan.</div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 footerLinks">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="oc-1">Products</h3>
+                                    <ul>
+                                        <li><a href="./product.html" class="text-white">Monitors</a></li>
+                                        <li><a href="./product.html" class="text-white">Printers</a></li>
+                                        <li><a href="./product.html" class="text-white">Graphic Card</a></li>
+                                        <li><a href="./product.html" class="text-white">Keyboards</a></li>
+                                        <!-- <li><a href="/lcd-led-monitors-pakistan-ppt.108.aspx"></a></li> -->
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="oc-1">Corporate</h3>
+                                    <ul>
+                                        <li><a href="/about.html" class="text-white">About Us</a></li>
+                                        <li><a href="/contact.html" class="text-white">Contact</a></li>
+                                        <!-- <li><a href="*">FAQs</a></li> -->
+                                        <li><a href="/gallery.html" class="text-white">Picture Gallery</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                  <h3 class="oc-1">Contact</h3>
+                                  <ul class="contactBox">
+                                      <li><i class="fa fa-map-marker"> </i> SD-1,Block A North Nazimabad Town,Karachi, Pakistan.</li>
+                                      <li><i class="fa fa-phone"> </i> (21) 36630102 | (21) 36630103 | (21) 36633472</li>
+                                      <li><i class="fa fa-envelope"> </i> aptech021@gmail.com</li>
+                                  </ul>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pt-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <p>Copyright © Ocean Gate 2023. All rights reserved.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+                            <div class="paymentMethodImg">
+                                <img height="30" src="./images/master_card.webp" alt="MasterCard">
+                                <img height="30" src="./images/visa_card.webp" alt="Visa">
+                                <img height="30" src="./images/paypal.webp" alt="PayPal">
+                                <img height="30" src="./images/american_express_card.webp" alt="American Express">
+                                <img height="30" src="./images/discover_network_card.webp" alt="Discover">
+                                <img height="30" src="./images/google_wallet.webp" alt="Google Wallet">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <p class="fa-pull-right">Powered by Ocean Gate®</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-haW6QSNQJLAcC3rdgHCFsTB3zUVl+PmQ53Aj1tZtPZAwn1b+O72F77Up2E41AeJV" crossorigin="anonymous"></script> -->
+</body>
+</html>
